@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#logo{
+    font-size: 40pt;
+    font-family: 'Courier New', Courier, monospace;
+color: rgb(12, 131, 125);
+text-decoration: none;
+font-weight: bold;
+}
+
+#dot{
+color: rgb(155, 16, 132);
+}
+
+#navlinks{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    align-items: center;
+    gap: 30px;
+    
+}
+
+#navbar{
+    display: flex;
+justify-content: space-between;
+height: 70px;
+background-color: chocolate;
+}
+.navitem{
+    text-decoration: none;
+    color: rgb(132, 0, 255);  
+}
+
+#hero{
+    display: flex;
+}
+#herotext{
+    display: flex;
+    flex-direction: column;
+}
+#heroimg{
+    height: 60vh;
+}
