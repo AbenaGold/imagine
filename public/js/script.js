@@ -109,6 +109,50 @@ Number('2') + 2
 Number('ty') + 2
 
 
+// Strings in javascript
+// concatenation
+const firstname = 'Priscilla';
+const lastname = 'Arthur';
+firstname + ' ' + lastname; 
+
+// Template literal
+`${firstname} ${lastname}`;
+
+
+
+// Strings in javascript
+// concatenation
+const firstname = 'Priscilla';
+const lastname = 'Arthur';
+firstname + ' ' + lastname; 
+
+// Template literal
+`${firstname} ${lastname}`;
+
+
+let fullname = 'priscilla arthur'
+fullname.length
+fullname.toUpperCase()
+fullname.charAt(5)
+fullname.slice(9,16)
+fullname.split('')
+fullname.replace('arthur', 'Gold')
+fullname.indexOf('cilla')
+fullname.indexOf('i')
+
+// string conversion
+Number('3.243')
+parseInt('3.243')
+parseFloat('3.243')
+parseInt('7.999')
+let amount = 18000
+console.log(`GHS${amount}`)
+amount.toString()
+
+
+
+
+
 
 
 
