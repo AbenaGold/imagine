@@ -151,6 +151,55 @@ amount.toString()
 
 
 
+// Write a function that will add a participant to our Google classroom
+// array
+const participants = [];
+
+function addParticipant(email){
+  // check if email was provided
+  if (!email) {
+    return ' No email provided'; 
+  // check if email is valid
+  if (!email.includes('@'))
+    {
+      return 'Invalid email provided';
+    }
+                                             }
+  // Add email to participants
+  participants.push(email);
+  return 'Participant added';
+}
+
+addParticipant('priscyangel91@gmail.com'); 
+addParticipant('priscy.o.arthur91@gmail.com'); 
+addParticipant();
+addParticipant('priccyaaf');
+
+
+// Arrays in Javascript
+const users = [
+  {
+    username: 'abenagold',
+    password: '1234',
+    email: 'priscyangel91@gmail.com'
+  }, 
+   {
+    username: 'priscyangel',
+    password: '12345',
+    email: 'priscy.o.arthur@gmail.com'
+  } 
+];
+users;
+
+
+
+
+
+participants; 
+
+
+
+
 
 
 
