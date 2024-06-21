@@ -111,8 +111,8 @@ Number('ty') + 2
 
 // Strings in javascript
 // concatenation
-const firstname = 'Priscilla';
-const lastname = 'Arthur';
+const firstName = 'Priscilla';
+const lastName = 'Arthur';
 firstname + ' ' + lastname; 
 
 // Template literal
@@ -200,98 +200,116 @@ participants;
 
 
 
-// write a function that will take a user with firstname, lastname and return fullname;
+// // write a function that will take a user with firstname, lastname and return fullname;
 
-function fullname(){
-  return 'Priscilla Arthur'
+// function fullname(){
+//   return 'Priscilla Arthur'
+// }
+// fullname();
+
+
+// // write a function that will take a user with firstname, lastname and return fullname;
+
+// function fullName(user) {
+//   return `${user.firstname} ${user.lastname}` ;
+// }
+
+// const user= {
+//   firstname: 'Priscilla',
+//   lastname: 'Arthur',
+// }
+// fullName(user);
+
+
+
+// // write a function that will take a user with firstname, lastname and return fullname;
+
+// function fullName(user) {
+//   return {
+//     ...user,
+//     fullName: `${user.firstname} ${user.lastname}`
+//   } ;
+// }
+
+// const user= {
+//   firstname: 'Priscilla',
+//   lastname: 'Arthur',
+// }
+// fullName(user);
+
+
+// // Array map
+// const users = [
+//   {firstname: 'Mick', lastname: 'Hammond'},
+//   {firstname: 'Elon', lastname: 'Musk'},
+//   {firstname: 'Barry', lastname: 'Alen'},
+//   {firstname: 'Oliver', lastname: 'Queen'},
+//   {firstname: 'Will', lastname: 'Smith'},
+// ]
+// // to call out all the names or return, use
+// // users.map(fullName);
+
+// // Square of numbers
+// function square(number){
+//   return number **2;
+// }
+// square(5)
+
+// function x(number){
+//   return number **2;
+// }
+
+// x(10)
+
+// function Dollars(amount){
+//   return amount *15
+// }
+// Dollars(50);
+
+
+// square(7);
+// const numbers = [5, 8, 7, 6];
+// numbers.map(square);
+
+// // Array filter
+// function isEven(number){
+//   return number % 2 === 0;
+// }
+// isEven(6)
+// isEven(9)
+// numbers.filter(isEven);
+
+// function isOdd(number){
+//   return number % 2 === 1;
+// }
+// isOdd(5)
+
+
+// // Write a function that will alllow a user to reset their password
+// const user = {
+//   email: 'example@gmail.com',
+//   password: '1234'
+// }
+
+function resetPassword(email, Password) {
+  // check if email and new password was provided
+  if (!email || !newPassword) {
+     return 'Email or Password not provided' }
+
+     // Check if provided email is correct
+if (email !==username.email) {
+  return 'Incorrect email'
 }
-fullname();
+ 
+// update password with new one
+username.password = newPassword;
+return 'password reset'
 
-
-// write a function that will take a user with firstname, lastname and return fullname;
-
-function fullName(user) {
-  return `${user.firstname} ${user.lastname}` ;
 }
 
-const user= {
-  firstname: 'Priscilla',
-  lastname: 'Arthur',
-}
-fullName(user);
-
-
-
-// write a function that will take a user with firstname, lastname and return fullname;
-
-function fullName(user) {
-  return {
-    ...user,
-    fullName: `${user.firstname} ${user.lastname}`
-  } ;
-}
-
-const user= {
-  firstname: 'Priscilla',
-  lastname: 'Arthur',
-}
-fullName(user);
-
-
-// Array map
-const users = [
-  {firstname: 'Mick', lastname: 'Hammond'},
-  {firstname: 'Elon', lastname: 'Musk'},
-  {firstname: 'Barry', lastname: 'Alen'},
-  {firstname: 'Oliver', lastname: 'Queen'},
-  {firstname: 'Will', lastname: 'Smith'},
-]
-// to call out all the names or return, use
-// users.map(fullName);
-
-// Square of numbers
-function square(number){
-  return number **2;
-}
-square(5)
-
-function x(number){
-  return number **2;
-}
-
-x(10)
-
-function Dollars(amount){
-  return amount *15
-}
-Dollars(50);
-
-
-square(7);
-const numbers = [5, 8, 7, 6];
-numbers.map(square);
-
-// Array filter
-function isEven(number){
-  return number % 2 === 0;
-}
-isEven(6)
-isEven(9)
-numbers.filter(isEven);
-
-function isOdd(number){
-  return number % 2 === 1;
-}
-isOdd(5)
-
-
-
-
-
-
-
-
-
+user;
+resetPassword('example@gmail.com', '99999')
+user;
 
 
 
